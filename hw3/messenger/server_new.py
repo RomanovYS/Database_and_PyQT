@@ -18,6 +18,7 @@ from common.variables import DEFAULT_PORT, MAX_CONNECTIONS, ACTION, TIME, \
     MESSAGE_TEXT, RESPONSE_400, DESTINATION, RESPONSE_200, EXIT
 from common.utils import get_message, send_message
 from common.decolog import log
+from db_comm import DataBase
 
 # Инициализация логирования сервера.
 LOGGER = logging.getLogger('server')
@@ -57,6 +58,8 @@ class ServerVerifier(type):
 
 class Server(metaclass=ServerVerifier):
 
+    udb = DataBase()  # объект соединения с БД
+
     # для проверки
     # def __init__(self):
     #     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -80,6 +83,9 @@ class Server(metaclass=ServerVerifier):
             if message[USER][ACCOUNT_NAME] not in names.keys():  # Если такой пользователь ещё не зарегистрирован
                 names[message[USER][ACCOUNT_NAME]] = client  # регистрируем
                 send_message(client, RESPONSE_200)
+                conn_user = message[USER][ACCOUNT_NAME]
+                print(conn_user)
+                self.udb.reg_user(conn_user, 'Info')
             else:  # иначе отправляем ответ и завершаем соединение.
                 response = RESPONSE_400
                 response[ERROR] = 'Имя пользователя уже занято.'

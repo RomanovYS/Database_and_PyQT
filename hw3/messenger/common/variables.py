@@ -33,3 +33,5 @@ PATH_DECO_LOG = 'logs\deco\decorator.log'
 RESPONSE_200 = {RESPONSE: 200}
 
 RESPONSE_400 = {RESPONSE: 400, ERROR: None}
+
+DATABASE_PATH = 'sqlite:///db.sqlite3'

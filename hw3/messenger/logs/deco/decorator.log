@@ -13587,3 +13587,1931 @@ ence', 'time': 1638120809.7739463, 'user': {'account_name': 'Admin'}}
 с параметрами: (<__main__.Client object at 0x000002875165D310>, {'response': 200}), {}
 Функция вернула: 200 : OK
 ************
+Время: 2021-12-06 16:43:13.735479
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x00000238BD4ABA90>, 'Alice'), {}
+Функция вернула: {'action': 'presence', 'time': 1638798193.7354798, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 16:43:13.735479
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58686), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638798193.7354798, 'user': {'account_name': 'Alice'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:43:13.738478
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58685), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638798193.7354798, 'user': {'account_name': 'Admin'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:43:13.755467
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58686)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638798193.7354798, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 16:43:13.755467
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000023E7784BA90>, 'Bob'), {}
+Функция вернула: {'action': 'presence', 'time': 1638798193.7554672, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 16:43:13.755467
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58687), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638798193.7554672, 'user': {'account_name': 'Bob'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:43:13.757466
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58686)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:43:13.736479
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58686), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 16:43:13.757466
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000019EB66AD670>, {'action': 'presence', 'time': 1638798193.7354798, 'user': {'account_name': 'Alice'}}, [], <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58686)>, [<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58686)>, <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58685)>, <socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58687)>], {}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:43:13.758466
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58685)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638798193.7354798, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 16:43:13.758466
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58685)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:43:13.738478
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58685), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 16:43:13.758466
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000019EB66AD670>, {'action': 'presence', 'time': 1638798193.7354798, 'user': {'account_name': 'Admin'}}, [], <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58685)>, [<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58686)>, <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58685)>, <socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58687)>], {'Alice': <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58686)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:43:13.759465
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x00000238BD4ABA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 16:43:13.760465
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000002641AC8BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 16:43:13.767459
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001930705BA90>, 'Eve'), {}
+Функция вернула: {'action': 'presence', 'time': 1638798193.7674596, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 16:43:13.768458
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58688), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638798193.7674596, 'user': {'account_name': 'Eve'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:43:13.770457
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58687)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638798193.7554672, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 16:43:13.770457
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58687)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:43:13.755467
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58687), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 16:43:13.770457
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000019EB66AD670>, {'action': 'presence', 'time': 1638798193.7554672, 'user': {'account_name': 'Bob'}}, [], <socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58687)>, [<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58686)>, <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58685)>, <socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58687)>, <socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58688)>], {'Alice': <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58686)>, 'Admin': <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58685)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:43:13.772456
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000023E7784BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 16:43:14.277296
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58688)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638798193.7674596, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 16:43:13.768458
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58688), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 16:43:14.279300
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58688)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:43:14.278301
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000019EB66AD670>, {'action': 'presence', 'time': 1638798193.7674596, 'user': {'account_name': 'Eve'}}, [], <socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58688)>, [<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58686)>, <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58685)>, <socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58687)>, <socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58688)>], {'Alice': <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58686)>, 'Admin': <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58685)>, 'Bob': <socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58687)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:43:14.286292
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001930705BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 16:54:10.314893
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001DF1C2ABA90>, 'Admin'), {}
+Функция вернула: {'action': 'presence', 'time': 1638798850.3158941, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 16:54:10.316892
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 60586), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638798850.3158941, 'user': {'account_name': 'Admin'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:54:10.324886
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60586)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638798850.3158941, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 16:54:10.326890
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60586)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:54:10.316892
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 60586), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 16:54:10.325891
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000002B443CA4EB0>, {'action': 'presence', 'time': 1638798850.3158941, 'user': {'account_name': 'Admin'}}, [], <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60586)>, [<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60586)>], {}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:54:10.331882
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001DF1C2ABA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 16:54:10.333881
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x00000209FBD5BA90>, 'Alice'), {}
+Функция вернула: {'action': 'presence', 'time': 1638798850.3338811, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 16:54:10.334880
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 60587), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638798850.3338811, 'user': {'account_name': 'Alice'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:54:10.345876
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000021FE37EBA90>, 'Eve'), {}
+Функция вернула: {'action': 'presence', 'time': 1638798850.3458765, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 16:54:10.347876
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 60589), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638798850.3458765, 'user': {'account_name': 'Eve'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:54:10.351872
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 60588), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638798850.3458765, 'user': {'account_name': 'Bob'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:54:10.351872
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60587)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638798850.3338811, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 16:54:10.353872
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60587)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:54:10.335880
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 60587), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 16:54:10.352873
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000002B443CA4EB0>, {'action': 'presence', 'time': 1638798850.3338811, 'user': {'account_name': 'Alice'}}, [], <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60587)>, [<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60586)>, <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60587)>, <socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60589)>], {'Admin': <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60586)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:54:10.354868
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60589)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638798850.3458765, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 16:54:10.356869
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60589)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:54:10.355870
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000002B443CA4EB0>, {'action': 'presence', 'time': 1638798850.3458765, 'user': {'account_name': 'Eve'}}, [], <socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60589)>, [<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60586)>, <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60587)>, <socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60589)>, <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60588)>], {'Admin': <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60586)>, 'Alice': <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60587)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:54:10.357869
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60588)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638798850.3458765, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 16:54:10.357869
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x00000209FBD5BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 16:54:10.360864
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000021FE37EBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 16:54:10.361864
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60588)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:54:10.352873
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 60588), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 16:54:10.357869
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000002B443CA4EB0>, {'action': 'presence', 'time': 1638798850.3458765, 'user': {'account_name': 'Bob'}}, [], <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60588)>, [<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60586)>, <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60587)>, <socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60589)>, <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60588)>], {'Admin': <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60586)>, 'Alice': <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60587)>, 'Eve': <socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60589)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:54:10.367860
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001ADB2D4BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 16:59:29.751324
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001B13506BA90>, 'Admin'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799169.7523189, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 16:59:29.753318
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61600), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799169.7523189, 'user': {'account_name': 'Admin'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:59:29.771058
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x00000251BD8CBA90>, 'Alice'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799169.771058, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 16:59:29.771058
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61600)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799169.7523189, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 16:59:29.773055
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61600)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:59:29.772056
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000002A859194E80>, {'action': 'presence', 'time': 1638799169.7523189, 'user': {'account_name': 'Admin'}}, [], <socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61600)>, [<socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61600)>, <socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61601)>], {}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:59:29.775053
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61601), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799169.771058, 'user': {'account_name': 'Alice'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:59:29.777056
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001B13506BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 16:59:29.786047
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001A98439BA90>, 'Eve'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799169.786047, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 16:59:29.787046
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000002313D04BA90>, 'Bob'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799169.7870467, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 16:59:29.787046
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61603), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799169.786047, 'user': {'account_name': 'Eve'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:59:29.788049
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61602), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799169.7870467, 'user': {'account_name': 'Bob'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:59:29.788049
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61601)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799169.771058, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 16:59:29.789045
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61601)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:59:29.776053
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61601), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 16:59:29.789045
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000002A859194E80>, {'action': 'presence', 'time': 1638799169.771058, 'user': {'account_name': 'Alice'}}, [], <socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61601)>, [<socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61600)>, <socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61601)>, <socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61603)>], {'Admin': <socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61600)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:59:29.791044
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61603)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799169.786047, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 16:59:29.792043
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61603)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:59:29.788049
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61603), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 16:59:29.792043
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000002A859194E80>, {'action': 'presence', 'time': 1638799169.786047, 'user': {'account_name': 'Eve'}}, [], <socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61603)>, [<socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61600)>, <socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61601)>, <socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61603)>, <socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61602)>], {'Admin': <socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61600)>, 'Alice': <socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61601)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:59:29.793042
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61602)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799169.7870467, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 16:59:29.793042
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x00000251BD8CBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 16:59:29.796039
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001A98439BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 16:59:29.796039
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61602)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:59:29.792043
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61602), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61602)>, [<socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61600)>, <socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61601)>, <socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61603)>, <socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61602)>], {'Admin': <socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61600)>, 'Alice': <socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61601)>, 'Eve': <socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 61603)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 16:59:29.797039
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000002313D04BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:02:19.043387
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001949A6DBA90>, 'Admin'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799339.044383, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:02:19.044383
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64826), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799339.044383, 'user': {'account_name': 'Admin'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:02:19.063372
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000024B4456BA90>, 'Alice'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799339.0633726, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:02:19.064371
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64826)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799339.044383, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:02:19.064371
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64827), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799339.0633726, 'user': {'account_name': 'Alice'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:02:19.068369
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64826)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:02:19.064371
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000002E47B504E80>, {'action': 'presence', 'time': 1638799339.044383, 'user': {'account_name': 'Admin'}}, [], <socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64826)>, [<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64826)>, <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64827)>], {}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:02:19.072364
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001949A6DBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:02:19.080362
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001AB990BBA90>, 'Bob'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799339.0803628, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:02:19.081360
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001A0E025BA90>, 'Eve'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799339.0813603, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:02:19.081360
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64827)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799339.0633726, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:02:19.081360
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64828), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799339.0803628, 'user': {'account_name': 'Bob'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:02:19.085359
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64829), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799339.0813603, 'user': {'account_name': 'Eve'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:02:19.089354
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64827)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:02:19.085359
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000002E47B504E80>, {'action': 'presence', 'time': 1638799339.0633726, 'user': {'account_name': 'Alice'}}, [], <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64827)>, [<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64826)>, <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64827)>, <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64828)>], {'Admin': <socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64826)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:02:19.091354
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64828)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799339.0803628, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:02:19.092352
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64828)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:02:19.082358
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64828), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:02:19.092352
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000002E47B504E80>, {'action': 'presence', 'time': 1638799339.0803628, 'user': {'account_name': 'Bob'}}, [], <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64828)>, [<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64826)>, <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64827)>, <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64828)>, <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64829)>], {'Admin': <socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64826)>, 'Alice': <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64827)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:02:19.093354
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64829)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799339.0813603, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:02:19.094351
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000024B4456BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:02:19.097349
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001AB990BBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:02:19.098352
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64829)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:02:19.086358
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 64829), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:02:19.094351
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000002E47B504E80>, {'action': 'presence', 'time': 1638799339.0813603, 'user': {'account_name': 'Eve'}}, [], <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64829)>, [<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64826)>, <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64827)>, <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64828)>, <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64829)>], {'Admin': <socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64826)>, 'Alice': <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64827)>, 'Bob': <socket.socket fd=580, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 64828)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:02:19.102350
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001A0E025BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:05:21.297496
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000024089CEBA90>, 'Admin'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799521.2974963, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:05:21.298493
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50279), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799521.2974963, 'user': {'account_name': 'Admin'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:05:21.300492
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=280, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50279)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799521.2974963, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:05:21.301491
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=280, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50279)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:05:21.301491
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000025DC0534E80>, {'action': 'presence', 'time': 1638799521.2974963, 'user': {'account_name': 'Admin'}}, [], <socket.socket fd=280, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50279)>, [<socket.socket fd=280, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50279)>], {}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:05:21.303490
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000024089CEBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:05:21.315630
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000027AE32DBA90>, 'Alice'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799521.3156307, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:05:21.315630
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50280), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799521.3156307, 'user': {'account_name': 'Alice'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:05:21.330432
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000019E8F87BA90>, 'Bob'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799521.330432, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:05:21.330432
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50280)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799521.3156307, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:05:21.331431
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50280)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:05:21.315630
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50280), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:05:21.331431
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000025DC0534E80>, {'action': 'presence', 'time': 1638799521.3156307, 'user': {'account_name': 'Alice'}}, [], <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50280)>, [<socket.socket fd=280, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50279)>, <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50280)>, <socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50281)>], {'Admin': <socket.socket fd=280, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50279)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:05:21.332430
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50281), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799521.330432, 'user': {'account_name': 'Bob'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:05:21.333430
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000027AE32DBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:05:21.345528
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000002878F18BA90>, 'Eve'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799521.3455286, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:05:21.345528
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50281)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799521.330432, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:05:21.346527
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50281)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:05:21.346527
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000025DC0534E80>, {'action': 'presence', 'time': 1638799521.330432, 'user': {'account_name': 'Bob'}}, [], <socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50281)>, [<socket.socket fd=280, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50279)>, <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50280)>, <socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50281)>, <socket.socket fd=328, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50282)>], {'Admin': <socket.socket fd=280, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50279)>, 'Alice': <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50280)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:05:21.347526
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50282), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799521.3455286, 'user': {'account_name': 'Eve'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:05:21.348527
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000019E8F87BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:05:21.857436
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=328, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50282)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799521.3455286, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:05:21.858434
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=328, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50282)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:05:21.347526
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50282), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:05:21.858434
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000025DC0534E80>, {'action': 'presence', 'time': 1638799521.3455286, 'user': {'account_name': 'Eve'}}, [], <socket.socket fd=328, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50282)>, [<socket.socket fd=280, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50279)>, <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50280)>, <socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50281)>, <socket.socket fd=328, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50282)>], {'Admin': <socket.socket fd=280, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50279)>, 'Alice': <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50280)>, 'Bob': <socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50281)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:05:21.861432
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000002878F18BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:09:35.731542
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000023E161EBA90>, 'Admin'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799775.7315426, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:09:35.732543
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49208), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799775.7315426, 'user': {'account_name': 'Admin'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:09:35.750531
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000015C1DC6BA90>, 'Alice'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799775.750532, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:09:35.750531
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001FFCACCBA90>, 'Bob'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799775.7515314, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:09:35.751531
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001ED0088BA90>, 'Eve'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799775.7515314, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:09:35.751531
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49208)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799775.7315426, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:09:35.751531
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=272, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49211), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799775.7515314, 'user': {'account_name': 'Bob'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:09:35.751531
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49209), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799775.750532, 'user': {'account_name': 'Alice'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:09:35.752534
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49210), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799775.7515314, 'user': {'account_name': 'Eve'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:09:35.757532
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49208)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:09:35.733546
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49208), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+nd.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49208)>, [<socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49208)>, <socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49210)>], {}), {}
+Время: 2021-12-06 17:09:35.758531
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000023E161EBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:09:35.762531
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49210)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799775.7515314, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:09:35.764525
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49210)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:09:35.753529
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49210), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:09:35.763523
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000028E089B4E80>, {'action': 'presence', 'time': 1638799775.7515314, 'user': {'account_name': 'Eve'}}, [], <socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49210)>, [<socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49210)>, <socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49211)>], {'Admin': <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49208)>}), {}
+Время: 2021-12-06 17:09:35.766525
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49211)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799775.7515314, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:09:35.767525
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49211)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:09:35.756531
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=272, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49211), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:09:35.766525
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000028E089B4E80>, {'action': 'presence', 'time': 1638799775.7515314, 'user': {'account_name': 'Bob'}}, [], <socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49211)>, [<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49211)>], {'Admin': <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49208)>, 'Eve': <socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49210)>}), {}
+Время: 2021-12-06 17:09:35.768528
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49209)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799775.750532, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:09:35.769523
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001ED0088BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:09:35.771518
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001FFCACCBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:09:35.773521
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49209)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:09:35.756531
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49209), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:09:35.769523
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000028E089B4E80>, {'action': 'presence', 'time': 1638799775.750532, 'user': {'account_name': 'Alice'}}, [], <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49209)>, [<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49209)>], {'Admin': <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49208)>, 'Eve': <socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49210)>, 'Bob': <socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49211)>}), {}
+Время: 2021-12-06 17:09:35.778514
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000015C1DC6BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:10:29.099628
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000002A7F7D5BA90>, 'Admin'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799829.1006227, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:10:29.100622
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58733), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799829.1006227, 'user': {'account_name': 'Admin'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:10:29.119610
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58733)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799829.1006227, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:10:29.121609
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58733)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:10:29.101620
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58733), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:10:29.122604
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000002A7F7D5BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:10:29.120606
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000212DA5A4E80>, {'action': 'presence', 'time': 1638799829.1006227, 'user': {'account_name': 'Admin'}}, [], <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58733)>, [<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58733)>, <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58734)>], {}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:10:29.124607
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58734), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799829.1196105, 'user': {'account_name': 'Alice'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:10:29.130599
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000010FECEBBA90>, 'Eve'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799829.1305995, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:10:29.130599
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001BD892CBA90>, 'Bob'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799829.1305995, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:10:29.130599
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58734)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799829.1196105, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:10:29.124607
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58734), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+****
+Время: 2021-12-06 17:10:29.131598
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000212DA5A4E80>, {'action': 'presence', 'time': 1638799829.1196105, 'user': {'account_name': 'Alice'}}, [], <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58734)>, [<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58733)>, <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58734)>, <socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58735)>], {'Admin': <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58733)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:10:29.132597
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000002CD6DF7BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:10:29.134596
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58735), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799829.1305995, 'user': {'account_name': 'Bob'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:10:29.641335
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58735)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799829.1305995, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:10:29.642335
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58735)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:10:29.134596
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58735), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:10:29.643331
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001BD892CBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Bob'}}, [], <socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58735)>, [<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58733)>, <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58734)>, <socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58735)>, <socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58736)>], {'Admin': <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58733)>, 'Alice': <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58734)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:10:29.645331
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58736)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799829.1305995, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:10:29.646330
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58736)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:10:29.137594
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58736), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:10:29.646330
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000212DA5A4E80>, {'action': 'presence', 'time': 1638799829.1305995, 'user': {'account_name': 'Eve'}}, [], <socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58736)>, [<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58733)>, <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58734)>, <socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58735)>, <socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58736)>], {'Admin': <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58733)>, 'Alice': <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58734)>, 'Bob': <socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58735)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:10:29.646330
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000010FECEBBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:11:14.426494
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000022F2D6EBA90>, 'Admin'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799874.4264944, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:11:14.427494
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56286), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799874.4264944, 'user': {'account_name': 'Admin'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:11:14.443625
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56286)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799874.4264944, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:11:14.443625
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001913F64BA90>, 'Alice'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799874.4436257, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:11:14.443625
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000023D183DBA90>, 'Bob'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799874.4436257, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:11:14.444625
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56288), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799874.4436257, 'user': {'account_name': 'Bob'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:11:14.445627
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56287), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799874.4436257, 'user': {'account_name': 'Alice'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:11:14.448623
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56286)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:11:14.427494
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56286), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:11:14.445627
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000283A1FD4E80>, {'action': 'presence', 'time': 1638799874.4264944, 'user': {'account_name': 'Admin'}}, [], <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56286)>, [<socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56286)>, <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56288)>], {}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:11:14.449623
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56288)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799874.4436257, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:11:14.450623
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56288)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:11:14.444625
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56288), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:11:14.449623
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000283A1FD4E80>, {'action': 'presence', 'time': 1638799874.4436257, 'user': {'account_name': 'Bob'}}, [], <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56288)>, [<socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56286)>, <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56288)>, <socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56287)>], {'Admin': <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56286)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:11:14.450623
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000023D183DBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:11:14.450623
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56287)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799874.4436257, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:11:14.446624
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56287), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+****
+Время: 2021-12-06 17:11:14.450623
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000283A1FD4E80>, {'action': 'presence', 'time': 1638799874.4436257, 'user': {'account_name': 'Alice'}}, [], <socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56287)>, [<socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56286)>, <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56288)>, <socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56287)>], {'Admin': <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56286)>, 'Bob': <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56288)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:11:14.451621
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001913F64BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:11:14.456753
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000002992F98BA90>, 'Eve'), {}
+Функция вернула: {'action': 'presence', 'time': 1638799874.4567535, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:11:14.456753
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56289), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638799874.4567535, 'user': {'account_name': 'Eve'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:11:14.972614
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=288, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56289)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638799874.4567535, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:11:14.973614
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=288, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56289)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:11:14.457750
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 56289), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:11:14.972614
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000283A1FD4E80>, {'action': 'presence', 'time': 1638799874.4567535, 'user': {'account_name': 'Eve'}}, [], <socket.socket fd=288, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56289)>, [<socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56286)>, <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56288)>, <socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56287)>, <socket.socket fd=288, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56289)>], {'Admin': <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56286)>, 'Bob': <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56288)>, 'Alice': <socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56287)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:11:14.973614
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000002992F98BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:14:45.920100
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000025B8466BA90>, 'Admin'), {}
+Функция вернула: {'action': 'presence', 'time': 1638800085.9201007, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:14:45.921092
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51702), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638800085.9201007, 'user': {'account_name': 'Admin'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:14:45.954900
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51702)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638800085.9201007, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:14:45.954900
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000024B23D6BA90>, 'Bob'), {}
+Функция вернула: {'action': 'presence', 'time': 1638800085.9549007, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:14:45.955900
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51703), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638800085.9549007, 'user': {'account_name': 'Bob'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:14:45.959903
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51702)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:14:45.922094
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51702), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:14:45.958903
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000265C5734EB0>, {'action': 'presence', 'time': 1638800085.9201007, 'user': {'account_name': 'Admin'}}, [], <socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51702)>, [<socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51702)>, <socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51703)>], {}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:14:45.964899
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000025B8466BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:14:45.969891
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000002550810BA90>, 'Eve'), {}
+Функция вернула: {'action': 'presence', 'time': 1638800085.9698913, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:14:45.970898
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51703)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638800085.9549007, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:14:45.970898
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51704), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638800085.9698913, 'user': {'account_name': 'Eve'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:14:45.974892
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51703)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:14:45.956900
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51703), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:14:45.974892
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000265C5734EB0>, {'action': 'presence', 'time': 1638800085.9549007, 'user': {'account_name': 'Bob'}}, [], <socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51703)>, [<socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51702)>, <socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51703)>, <socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51704)>], {'Admin': <socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51702)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:14:45.979871
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000024B23D6BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:14:45.984870
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51704)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638800085.9698913, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:14:45.984870
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001D98791BA90>, 'Alice'), {}
+Функция вернула: {'action': 'presence', 'time': 1638800085.9858723, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:14:45.985872
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51705), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638800085.9858723, 'user': {'account_name': 'Alice'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:14:45.989867
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51704)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:14:45.985872
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000265C5734EB0>, {'action': 'presence', 'time': 1638800085.9698913, 'user': {'account_name': 'Eve'}}, [], <socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51704)>, [<socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51702)>, <socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51703)>, <socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51704)>, <socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51705)>], {'Admin': <socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51702)>, 'Bob': <socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51703)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:14:45.993865
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000002550810BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:14:46.506682
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51705)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638800085.9858723, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:14:46.507681
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51705)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:14:45.986870
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51705), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:14:46.506682
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000265C5734EB0>, {'action': 'presence', 'time': 1638800085.9858723, 'user': {'account_name': 'Alice'}}, [], <socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51705)>, [<socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51702)>, <socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51703)>, <socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51704)>, <socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51705)>], {'Admin': <socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51702)>, 'Bob': <socket.socket fd=592, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51703)>, 'Eve': <socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51704)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:14:46.512679
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001D98791BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:15:18.902996
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000027C5264BA90>, 'Admin'), {}
+Функция вернула: {'action': 'presence', 'time': 1638800118.9040031, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:15:18.904003
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=284, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63933), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638800118.9040031, 'user': {'account_name': 'Admin'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:18.921962
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000002E9672FBA90>, 'Bob'), {}
+Функция вернула: {'action': 'presence', 'time': 1638800118.9219623, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:15:18.922961
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x00000143BFE2BA90>, 'Alice'), {}
+Функция вернула: {'action': 'presence', 'time': 1638800118.9229617, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:15:18.922961
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63935), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638800118.9219623, 'user': {'account_name': 'Bob'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:18.923956
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63933)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638800118.9040031, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:15:18.905005
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=284, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63933), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+****
+Время: 2021-12-06 17:15:18.924956
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000001C544D84E80>, {'action': 'presence', 'time': 1638800118.9040031, 'user': {'account_name': 'Admin'}}, [], <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63933)>, [<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63933)>, <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63934)>], {}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:18.927954
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63935)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638800118.9219623, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:15:18.927954
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=300, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63934), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638800118.9229617, 'user': {'account_name': 'Alice'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:18.931950
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63935)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:18.923956
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63935), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:15:18.927954
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000001C544D84E80>, {'action': 'presence', 'time': 1638800118.9219623, 'user': {'account_name': 'Bob'}}, [], <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63935)>, [<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63933)>, <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63934)>, <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63935)>], {'Admin': <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63933)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:18.932950
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000002E9672FBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:15:18.935950
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63934)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638800118.9229617, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:15:18.935950
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001690D56BA90>, 'Eve'), {}
+Функция вернула: {'action': 'presence', 'time': 1638800118.936949, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:15:18.936949
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63936), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638800118.936949, 'user': {'account_name': 'Eve'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:18.938947
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63934)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:18.928952
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=300, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63934), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:15:18.936949
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000001C544D84E80>, {'action': 'presence', 'time': 1638800118.9229617, 'user': {'account_name': 'Alice'}}, [], <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63934)>, [<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63933)>, <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63934)>, <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63935)>, <socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63936)>], {'Admin': <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63933)>, 'Bob': <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63935)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:18.941945
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x00000143BFE2BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:15:19.448156
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63936)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638800118.936949, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:15:19.449151
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63936)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:18.936949
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63936), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:15:19.449151
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000001C544D84E80>, {'action': 'presence', 'time': 1638800118.936949, 'user': {'account_name': 'Eve'}}, [], <socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63936)>, [<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63933)>, <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63934)>, <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63935)>, <socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63936)>], {'Admin': <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63933)>, 'Bob': <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63935)>, 'Alice': <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63934)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:19.450155
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001690D56BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:15:39.347204
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63936), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Eve', 'to': 'Bob', 'time': 1638800139.3472042, 'mess_text': 'dfhgsdgs'}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:31.299199
+В модуле: client_new.py, произошел вызов функции: create_message, из __main__
+с параметрами: (<__main__.Client object at 0x000001690D56BA90>, <socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63936), raddr=('127.0.0.1', 7777)>, 'Eve'), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:39.836035
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63936)>,), {}
+Функция вернула: {'action': 'message', 'from': 'Eve', 'to': 'Bob', 'time': 1638800139.3472042, 'mess_text': 'dfhgsdgs'}
+************
+Время: 2021-12-06 17:15:39.837029
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x000001C544D84E80>, {'action': 'message', 'from': 'Eve', 'to': 'Bob', 'time': 1638800139.3472042, 'mess_text': 'dfhgsdgs'}, [], <socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63936)>, [<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63933)>, <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63934)>, <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63935)>, <socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63936)>], {'Admin': <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63933)>, 'Bob': <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63935)>, 'Alice': <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63934)>, 'Eve': <socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63936)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:39.838029
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63935)>, {'action': 'message', 'from': 'Eve', 'to': 'Bob', 'time': 1638800139.3472042, 'mess_text': 'dfhgsdgs'}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:18.935950
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63935), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'action': 'message', 'from': 'Eve', 'to': 'Bob', 'time': 1638800139.3472042, 'mess_text': 'dfhgsdgs'}
+************
+Время: 2021-12-06 17:15:39.838029
+В модуле: server_new.py, произошел вызов функции: process_message, из __main__
+с параметрами: (<__main__.Server object at 0x000001C544D84E80>, {'action': 'message', 'from': 'Eve', 'to': 'Bob', 'time': 1638800139.3472042, 'mess_text': 'dfhgsdgs'}, {'Admin': <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63933)>, 'Bob': <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63935)>, 'Alice': <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63934)>, 'Eve': <socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63936)>}, [<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63933)>, <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63934)>, <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63935)>, <socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63936)>]), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:58.106681
+В модуле: client_new.py, произошел вызов функции: create_exit_message, из __main__
+с параметрами: (<__main__.Client object at 0x000001690D56BA90>, 'Eve'), {}
+Функция вернула: {'action': 'exit', 'time': 1638800158.1066816, 'account_name': 'Eve'}
+************
+Время: 2021-12-06 17:15:58.107686
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63936), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1638800158.1066816, 'account_name': 'Eve'}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:58.177938
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63936)>,), {}
+Функция вернула: {'action': 'exit', 'time': 1638800158.1066816, 'account_name': 'Eve'}
+************
+Время: 2021-12-06 17:15:19.454150
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63936), raddr=('127.0.0.1', 7777)>,), {}
+644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63936)>, [<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63933)>, <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63934)>, <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63935)>, <socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63936)>], {'Admin': <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63933)>, 'Bob': <socket.socket fd=620, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63935)>, 'Alice': <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63934)>, 'Eve': <socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63936)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:19.453149
+В модуле: client_new.py, произошел вызов функции: message_from_server, из __main__
+с параметрами: (<__main__.Client object at 0x000001690D56BA90>, <socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63936), raddr=('127.0.0.1', 7777)>, 'Eve'), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:15:19.455150
+В модуле: client_new.py, произошел вызов функции: user_interactive, из __main__
+с параметрами: (<__main__.Client object at 0x000001690D56BA90>, <socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63936), raddr=('127.0.0.1', 7777)>, 'Eve'), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:33:20.459000
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000024FD111BA90>, 'Admin'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801200.459, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:33:20.459994
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51789), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801200.459, 'user': {'account_name': 'Admin'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:33:20.508775
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000018EC4EABA90>, 'Alice'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801200.5087755, 'user': {'account_name': 'Alice'}}
+************
+sence', 'time': 1638801200.459, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:33:20.509774
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51790), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801200.5087755, 'user': {'account_name': 'Alice'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:33:20.460998
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51789), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+****
+Время: 2021-12-06 17:33:20.511775
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000024FD111BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:33:20.550983
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001EF05A3BA90>, 'Bob'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801200.5509832, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:33:20.551982
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51791), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801200.5509832, 'user': {'account_name': 'Bob'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:33:20.571970
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000017E8665BA90>, 'Eve'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801200.5719702, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:33:20.572969
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51792), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801200.5719702, 'user': {'account_name': 'Eve'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:33:20.511775
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000217F4A6FBB0>, {'action': 'presence', 'time': 1638801200.459, 'user': {'account_name': 'Admin'}}, [], <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51789)>, [<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51789)>, <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51790)>], {}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:33:20.781842
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51790)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638801200.5087755, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:33:20.781842
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51790)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:33:20.509774
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51790), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:33:20.782841
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000018EC4EABA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:33:20.781842
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000217F4A6FBB0>, {'action': 'presence', 'time': 1638801200.5087755, 'user': {'account_name': 'Alice'}}, [], <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51790)>, [<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51789)>, <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51790)>, <socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51791)>], {'Admin': <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51789)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:33:21.036937
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51791)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638801200.5509832, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:33:21.038936
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51791)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:33:20.551982
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51791), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:33:21.039935
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001EF05A3BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:33:21.037937
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000217F4A6FBB0>, {'action': 'presence', 'time': 1638801200.5509832, 'user': {'account_name': 'Bob'}}, [], <socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51791)>, [<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51789)>, <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51790)>, <socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51791)>], {'Admin': <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51789)>, 'Alice': <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51790)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:33:21.305176
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51792)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638801200.5719702, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:33:21.306176
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51792)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:33:20.572969
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51792), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:33:21.307178
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000017E8665BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:33:21.305176
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000217F4A6FBB0>, {'action': 'presence', 'time': 1638801200.5719702, 'user': {'account_name': 'Eve'}}, [], <socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51792)>, [<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51789)>, <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51790)>, <socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51791)>, <socket.socket fd=644, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51792)>], {'Admin': <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51789)>, 'Alice': <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51790)>, 'Bob': <socket.socket fd=648, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51791)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:34:59.222054
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001D79445BA90>, 'Admin'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801299.2220545, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:34:59.224048
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=288, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59011), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801299.2220545, 'user': {'account_name': 'Admin'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:34:59.256105
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x00000273E79DBA90>, 'Bob'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801299.2561052, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:34:59.256105
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001D4452DBA90>, 'Alice'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801299.2561052, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:34:59.256105
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59011)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638801299.2220545, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:34:59.257102
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59011)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:34:59.224048
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=288, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 59011), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:34:59.258102
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001D79445BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:34:59.259101
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52702), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801299.2561052, 'user': {'account_name': 'Alice'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:34:59.259101
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52701), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801299.2561052, 'user': {'account_name': 'Bob'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:34:59.269860
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001D973BFBA90>, 'Eve'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801299.26986, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:34:59.270864
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65302), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801299.26986, 'user': {'account_name': 'Eve'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:34:59.257102
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000142E53A9970>, {'action': 'presence', 'time': 1638801299.2220545, 'user': {'account_name': 'Admin'}}, [], <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59011)>, [<socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59011)>, <socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52701)>], {}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:34:59.382679
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52701)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638801299.2561052, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:34:59.383678
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52701)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:34:59.260100
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52701), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:34:59.385677
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x00000273E79DBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:34:59.383678
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000142E53A9970>, {'action': 'presence', 'time': 1638801299.2561052, 'user': {'account_name': 'Bob'}}, [], <socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52701)>, [<socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59011)>, <socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52701)>, <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52702)>], {'Admin': <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59011)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:34:59.526772
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52702)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638801299.2561052, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:34:59.527771
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52702)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:34:59.261102
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52702), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:34:59.528771
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001D4452DBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:34:59.527771
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000142E53A9970>, {'action': 'presence', 'time': 1638801299.2561052, 'user': {'account_name': 'Alice'}}, [], <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52702)>, [<socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59011)>, <socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52701)>, <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52702)>], {'Admin': <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59011)>, 'Bob': <socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52701)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:34:59.650012
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65302)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638801299.26986, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:34:59.651012
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65302)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:34:59.271868
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65302), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:34:59.652011
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001D973BFBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:34:59.650012
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x00000142E53A9970>, {'action': 'presence', 'time': 1638801299.26986, 'user': {'account_name': 'Eve'}}, [], <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65302)>, [<socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59011)>, <socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52701)>, <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52702)>, <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 65302)>], {'Admin': <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59011)>, 'Bob': <socket.socket fd=632, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52701)>, 'Alice': <socket.socket fd=636, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52702)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:36:19.834526
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001D589C0BA90>, 'Admin'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801379.8345268, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:36:19.835531
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49543), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801379.8345268, 'user': {'account_name': 'Admin'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:36:19.853518
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49543)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638801379.8345268, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:36:19.853518
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000002C301E6BA90>, 'Alice'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801379.853519, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:36:19.853518
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49544), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801379.853519, 'user': {'account_name': 'Alice'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:36:19.856516
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49543)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:36:19.836530
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49543), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:36:19.857516
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001D589C0BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:36:19.868509
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000023DE667BA90>, 'Bob'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801379.8685098, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:36:19.869509
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49545), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801379.8685098, 'user': {'account_name': 'Bob'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:36:19.884500
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001E1588CBA90>, 'Eve'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801379.8845005, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:36:19.884500
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49546), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801379.8845005, 'user': {'account_name': 'Eve'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:36:19.856516
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000011EFA47FBB0>, {'action': 'presence', 'time': 1638801379.8345268, 'user': {'account_name': 'Admin'}}, [], <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49543)>, [<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49543)>, <socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49544)>], {}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:36:19.994786
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49544)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638801379.853519, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:36:19.995786
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49544)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:36:19.854518
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49544), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:36:19.996787
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000002C301E6BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:36:19.994786
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000011EFA47FBB0>, {'action': 'presence', 'time': 1638801379.853519, 'user': {'account_name': 'Alice'}}, [], <socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49544)>, [<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49543)>, <socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49544)>, <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49545)>], {'Admin': <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49543)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:36:20.138192
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49545)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638801379.8685098, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:36:20.139191
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49545)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:36:19.869509
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49545), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:36:20.140190
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000023DE667BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:36:20.139191
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000011EFA47FBB0>, {'action': 'presence', 'time': 1638801379.8685098, 'user': {'account_name': 'Bob'}}, [], <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49545)>, [<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49543)>, <socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49544)>, <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49545)>], {'Admin': <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49543)>, 'Alice': <socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49544)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:36:20.261411
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49546)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638801379.8845005, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:36:20.262410
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49546)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:36:19.885498
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49546), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:36:20.263408
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001E1588CBA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:36:20.261411
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000011EFA47FBB0>, {'action': 'presence', 'time': 1638801379.8845005, 'user': {'account_name': 'Eve'}}, [], <socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49546)>, [<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49543)>, <socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49544)>, <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49545)>, <socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49546)>], {'Admin': <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49543)>, 'Alice': <socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49544)>, 'Bob': <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49545)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:41:51.426663
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001B29420BAC0>, 'Admin'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801711.4266636, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:41:51.427662
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63249), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801711.4266636, 'user': {'account_name': 'Admin'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:41:51.460642
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63249)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638801711.4266636, 'user': {'account_name': 'Admin'}}
+************
+Время: 2021-12-06 17:41:51.460642
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000001FC3500BA90>, 'Alice'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801711.4606423, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:41:51.460642
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x000002443897BA90>, 'Bob'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801711.4606423, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:41:51.461642
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=280, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63251), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801711.4606423, 'user': {'account_name': 'Bob'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:41:51.462641
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63250), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801711.4606423, 'user': {'account_name': 'Alice'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:41:51.465638
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63249)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:41:51.427662
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63249), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:41:51.465638
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001B29420BAC0>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:41:51.475634
+В модуле: client_new.py, произошел вызов функции: create_presence, из __main__
+с параметрами: (<__main__.Client object at 0x0000028627B3BA90>, 'Eve'), {}
+Функция вернула: {'action': 'presence', 'time': 1638801711.4756346, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:41:51.475634
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63252), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1638801711.4756346, 'user': {'account_name': 'Eve'}}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:41:51.462641
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000016905A6FCD0>, {'action': 'presence', 'time': 1638801711.4266636, 'user': {'account_name': 'Admin'}}, [], <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63249)>, [<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63249)>, <socket.socket fd=720, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63251)>], {}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:41:51.596141
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=720, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63251)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638801711.4606423, 'user': {'account_name': 'Bob'}}
+************
+Время: 2021-12-06 17:41:51.597139
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=720, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63251)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:41:51.461642
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=280, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63251), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:41:51.598138
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000002443897BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:41:51.597139
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000016905A6FCD0>, {'action': 'presence', 'time': 1638801711.4606423, 'user': {'account_name': 'Bob'}}, [], <socket.socket fd=720, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63251)>, [<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63249)>, <socket.socket fd=720, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63251)>, <socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63250)>], {'Admin': <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63249)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:41:51.728057
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63250)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638801711.4606423, 'user': {'account_name': 'Alice'}}
+************
+Время: 2021-12-06 17:41:51.729058
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63250)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:41:51.463640
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63250), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:41:51.729058
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x000001FC3500BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:41:51.728057
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000016905A6FCD0>, {'action': 'presence', 'time': 1638801711.4606423, 'user': {'account_name': 'Alice'}}, [], <socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63250)>, [<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63249)>, <socket.socket fd=720, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63251)>, <socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63250)>], {'Admin': <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63249)>, 'Bob': <socket.socket fd=720, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63251)>}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:41:51.861371
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63252)>,), {}
+Функция вернула: {'action': 'presence', 'time': 1638801711.4756346, 'user': {'account_name': 'Eve'}}
+************
+Время: 2021-12-06 17:41:51.862370
+В модуле: utils.py, произошел вызов функции: send_message, из common.utils
+с параметрами: (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63252)>, {'response': 200}), {}
+Функция вернула: None
+************
+Время: 2021-12-06 17:41:51.476633
+В модуле: utils.py, произошел вызов функции: get_message, из common.utils
+с параметрами: (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 63252), raddr=('127.0.0.1', 7777)>,), {}
+Функция вернула: {'response': 200}
+************
+Время: 2021-12-06 17:41:51.862370
+В модуле: client_new.py, произошел вызов функции: process_response_ans, из __main__
+с параметрами: (<__main__.Client object at 0x0000028627B3BA90>, {'response': 200}), {}
+Функция вернула: 200 : OK
+************
+Время: 2021-12-06 17:41:51.861371
+В модуле: server_new.py, произошел вызов функции: process_client_message, из __main__
+с параметрами: (<__main__.Server object at 0x0000016905A6FCD0>, {'action': 'presence', 'time': 1638801711.4756346, 'user': {'account_name': 'Eve'}}, [], <socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63252)>, [<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63249)>, <socket.socket fd=720, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63251)>, <socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63250)>, <socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63252)>], {'Admin': <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63249)>, 'Bob': <socket.socket fd=720, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63251)>, 'Alice': <socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63250)>}), {}
+Функция вернула: None
+************
